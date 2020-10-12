@@ -3,3 +3,36 @@
 #formbutton {
     display:none;
 }
+#todoheader {
+   color: pink;
+}
+#fname {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.deletebtn {
+    float: right;
+    display: none;
+    font-size: 24px;
+}
+.tododiv:hover .deletebtn {
+  display: inline-block;
+}
+.list-group-item {
+    font-size: 24px;
+    height: 76px;
+}
+.listcontainer {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+}

@@ -14,7 +14,7 @@ export function Form(props) {
 	}
 
 	return (
-		<li className="list-group-item">
+		<li className="list-group-item p-3 px-5">
 			<form onSubmit={handleSubmit}>
 				<label htmlFor="fname" />
 				<input
@@ -25,6 +25,7 @@ export function Form(props) {
 					value={name}
 					onChange={handleChange}
 					autoComplete="off"
+					className="text-secondary"
 				/>
 				<button type="submit" id="formbutton">
 					add

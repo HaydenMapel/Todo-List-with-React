@@ -31,7 +31,9 @@ export function ToDoList(props) {
 	return (
 		<div className="container">
 			<div className="listtitle">
-				<h1 id="todoheader">todos</h1>
+				<h1 className="text-center display-2" id="todoheader">
+					todos
+				</h1>
 			</div>
 			<div className="listcontainer">
 				<ul className="list-group">
