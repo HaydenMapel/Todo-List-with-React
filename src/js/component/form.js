@@ -10,7 +10,9 @@ export function Form(props) {
 
 	function handleSubmit(e) {
 		e.preventDefault();
+		if (!name) return;
 		props.addTask(name);
+		setName("");
 	}
 
 	return (
@@ -27,9 +29,6 @@ export function Form(props) {
 					autoComplete="off"
 					className="text-secondary"
 				/>
-				<button type="submit" id="formbutton">
-					add
-				</button>
 			</form>
 		</li>
 	);
